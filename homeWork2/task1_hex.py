@@ -12,7 +12,7 @@ num: int = int(input('Введите целое число: '))
 print(hex(num))
 
 
-def decimal_to_number_system (number: int, base=BASE, base_alphabet=BASE_ALPHABET) -> str:
+def decimal_to_number_system(number: int, base=BASE, base_alphabet=BASE_ALPHABET) -> str:
     result: str = ''
     result_list: list[str] = []
 
